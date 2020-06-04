@@ -1,0 +1,12 @@
+<div class="row mt-3" *ngIf="entry">
+  <div class="col">
+    <div class="jumbotron">
+      <a class="navbar-brand" [routerLink]="'/entries'">Go back!</a>
+      <h1 class="display-4">{{entry.title}}</h1>
+      <p class="lead">{{entry.subTitle}}</p>
+      <hr class="my-4">
+      <p>{{entry.description}}</p>
+      <div [chart]="stock"></div>
+    </div>
+  </div>
+</div>

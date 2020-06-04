@@ -1,0 +1,18 @@
+<div class="table-responsive mt-3">
+  <table class="table table-bordered table-sm" *ngIf="entries && entries.length">
+    <thead>
+    <tr>
+      <td>Title</td>
+      <td>Sub Title</td>
+      <td>Date</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let entry of entries">
+      <td><a [routerLink]="['/entries', entry.id]">{{entry.title}}</a></td>
+      <td>{{entry.subTitle}}</td>
+      <td>{{entry.date | date}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
