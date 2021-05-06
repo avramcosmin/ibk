@@ -29,7 +29,7 @@
     "@ngx-translate/http-loader": "^4.0.0",
     "angular-highcharts": "^9.0.11",
     "angular-in-memory-web-api": "^0.11.0",
-    "highcharts": "^8.1.0",
+    "highcharts": "^9.0.0",
     "rxjs": "~6.5.5",
     "subsink": "^1.0.1",
     "tslib": "^1.10.0",
